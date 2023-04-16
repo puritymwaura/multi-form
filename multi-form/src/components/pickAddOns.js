@@ -29,7 +29,7 @@ const PickAddOns = ({ nextStep, handleFormData, prevStep, values }) => {
                 style={{ border: error ? "2px solid red" : "" }}
                 type="text"
                 placeholder="onlineservices"
-                onChange={handleFormData("onlineservices")}
+                onChange={()=>handleFormData("onlineservices")}
               />
               {error ? (
                 <Form.Text style={{ color: "red" }}>

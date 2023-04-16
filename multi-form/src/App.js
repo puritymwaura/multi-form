@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+/* eslint-disable no-dupe-keys */
 import './App.css';
 import { Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
-import React, { useContext } from 'react';
+ import React from 'react';
 import PersonalInfo from './components/personalInfo';
 import SelectPlan from './components/selectPlan';
 import FinishingUp from './components/finishingUp';

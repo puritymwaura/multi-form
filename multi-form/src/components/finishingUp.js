@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Card } from "react-bootstrap";
+import { Button } from "bootstrap";
 
 const FinishingUp = ({ values }) => {
 
@@ -11,44 +12,39 @@ const FinishingUp = ({ values }) => {
       <Card style={{ marginTop: 100, textAlign: "left" }}>
         <Card.Body>
           <p>
-            <strong>Name :</strong> {firstName}{" "}
+            <strong>Name :</strong> {Name}{" "}
+          </p>
+          
+          <p>
+            <strong>phonenumber :</strong> {phonenumber}{" "}
           </p>
           <p>
-            <strong>email :</strong> {lastName}{" "}
+            <strong>arcade :</strong> {arcade}{" "}
           </p>
           <p>
-            <strong>phonenumber :</strong> {age}{" "}
-          </p>
-          <p>
-            <strong>arcade :</strong> {email}{" "}
-          </p>
-          <p>
-            <strong>advanced :</strong> {email}{" "}
+            <strong>advanced :</strong> {advanced}{" "}
             </p>
             <p>
-            <strong>pro :</strong> {email}{" "}
+            <strong>pro :</strong> {pro}{" "}
             </p>
             <p>
-            <strong>onlineservices :</strong> {email}{" "}
+            <strong>onlineservices :</strong> {onlineservices}{" "}
             </p>
             <p>
             <strong>largerstorage :</strong> {email}{" "}
             </p>
             <p>
-            <strong>customizeprofile :</strong> {email}{" "}
+            <strong>customizeprofile :</strong> {customizeprofile}{" "}
             </p>
             <p>
-            <strong>arcademonthly :</strong> {email}{" "}
+            <strong>arcademonthly :</strong> {arcademonthly}{" "}
             </p>
             <p>
-            <strong>onlineservices :</strong> {email}{" "}
-            </p>
-            <p>
-            <strong>largerstorage :</strong> {email}{" "}
+            <strong>largerstorage :</strong> {largerstorage}{" "}
             </p>
         </Card.Body>
       </Card>
-      <Button variant="primary" onClick={prevStep}>
+      <Button variant="primary" onClick={"prevStep"}>
                 Previous
               </Button>
 
